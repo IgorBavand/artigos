@@ -37,15 +37,15 @@ Vá até o canto superior esquedo da tela e clique em `nova tarefa` ou `new job`
 
 Dê um nome ao seu job, selecione `pipeline` e depois clique para continuar.
 
-[criando_job]
+![imagem](imagens/criando_job.png)
 
 Em seguida vá até a até `Build Triggers` selecione a opção `construir periodicamento o SCM` e digite `* * * * *` na angenda, caso queira verificar constantemente alterações no seu repositório.
 
 Feito isso, vá até `pipeline` e configure a url do seu repositório git, a branch que deseja usa, e ao final o `Script Path` coloque o valor que usará no nome do arquivo de configuração que será adicionado na aplicação, nesse exemplo usarei `Jenkinsfile`
 
-[configurando_git]
+![imagem](imagens/configurando_git.png)
 
-[jenkinsfile]
+![imagem](imagens/jenkinsfile.png)
 
 Agora é so salvar.
 
@@ -135,6 +135,8 @@ pipeline {
 
 Após a configuração anterior faça o push das alterações para a branch que definiu no Jenkins e já estará funcionando.
 
-[stages]
+![imagem](imagens/stages.png)
 
 Container da aplicação após o sucesso no Jenkins:
+
+![imagem](imagens/container.png)
