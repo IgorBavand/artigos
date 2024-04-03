@@ -31,6 +31,12 @@ lembre-se de substituir o `<container_id>` pelo id do seu container.
 
 Após a senha será feita a solicitação para criar um novo usuario e a instalação dos plugins.
 
+**Instale o Maven**
+
+Gerenciar Jenkins -> Tools -> Maven instalações
+
+Configure com o nome Maven3.6 e selecione instalar automaticamente
+
 ### Criando Job
 
 Vá até o canto superior esquedo da tela e clique em `nova tarefa` ou `new job`
